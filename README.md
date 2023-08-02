@@ -3,6 +3,7 @@ ua_parser Java Library
 
 This is a fork of the the Java implementation of [ua-parser](https://github.com/ua-parser).
 It has been forked due to lack of maintenance.
+
 The implementation uses the shared regex patterns and overrides from [regexes.yaml](https://github.com/ua-parser/uap-core/blob/master/regexes.yaml).
 
 Import Dependency:
