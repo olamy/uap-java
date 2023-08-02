@@ -34,8 +34,7 @@
   <scm>
     <connection>scm:git:git://github.com/olamy/uap-java.git</connection>
     <developerConnection>scm:git:ssh://github.com:olamy/uap-java.git</developerConnection>
-    <url>http://github.com/olamy/uap-java/tree/master</url>
-    <tag>uap-java-1.6.0</tag>
+    <url>https://github.com/olamy/uap-java/tree/master</url>
   </scm>
 
   <distributionManagement>
