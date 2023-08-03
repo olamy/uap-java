@@ -69,6 +69,14 @@ System.out.println(c.os.minor);         // => "1"
 System.out.println(c.device.family);    // => "iPhone"
 ```
 
+### Release
+As git submodule is not supported by Apache Maven scm, you must skip tests when releasing:
+```shell
+
+mvn release:prepare release:perform -DskipTests -Darguments="-DskipTests" -DlocalCheckout=true -B
+
+```
+
 ### Changelog
 Changelog can be found [here](https://github.com/ua-parser/uap-java/wiki/ChangeLog).
 
